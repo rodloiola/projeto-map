@@ -6,7 +6,19 @@ import lombok.NoArgsConstructor;
 
 @Data
 @NoArgsConstructor
-@AllArgsConstructor
+//@AllArgsConstructor
 public class Bibliotecaria {
+    private static Bibliotecaria instance;
     private String nome;
+
+    private Bibliotecaria(String nome) {
+        this.nome = nome;
+    }
+
+    public static Bibliotecaria getInstance(String nome) {
+        if (instance == null) {
+            instance = new Bibliotecaria(nome);
+        }
+        return instance;
+    }
 }

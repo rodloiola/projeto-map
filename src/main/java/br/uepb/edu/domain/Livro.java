@@ -7,7 +7,7 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class Livro {
+public class Livro  {
     private String titulo;
     private String autor;
     private int ano;
