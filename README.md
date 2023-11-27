@@ -9,3 +9,8 @@
 
 - Implementar dois padrões de cada conjunto dos padrões GoF (Creational e Structural);
 - Implementar o padrão Facade;
+
+***
+
+### Refetoração
+- Documento: [Projeto 2 - MAP](https://github.com/rodloiola/projeto-map/files/13477911/projeto2-map.pdf)
